@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { LoginUserComponent } from './login-user/login-user.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { PasswordResetComponent } from './password-reset/password-reset.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginUserComponent
+    LoginUserComponent,
+    PasswordResetComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
